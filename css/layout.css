@@ -1,0 +1,91 @@
+aside {
+  float: right;
+  position:fixed;
+  float: right;
+  width: 400px;
+  margin: 25px;
+  padding: 25px;
+  margin: 0 80em;
+}
+main {
+    width: 65vw;
+}
+header {
+    padding: 20px 0px;
+}
+header img {
+    position: absolute;
+    right: 10vw;
+    top: 1vw;
+}
+main img {
+    height: 250px;
+    width: 250px;
+    margin-right: 1em;
+}
+.topnav {
+  background-color: rgb( 17, 17, 17);
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  font-family: "Courier New", Courier, monospace;
+  top: 0;
+  display: flex;
+}
+.foot {
+  background-color: rgb( 17, 17, 17);
+  width: 200em;
+  overflow: hidden;
+  position: fixed;
+  font-family: "Courier New", Courier, monospace;
+  bottom: 0;
+  display: flex;
+}
+.topnav a,
+.foot a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover,
+.foot a:hover {
+  background-color: rgb(245, 57, 57);
+  color: black;
+}
+.topnav a.active,
+.foot a.active {
+  background-color: rgb(26, 131, 5);
+  color: white;
+}
+label,
+textarea,
+input[type="submit"],
+input[type="reset"] {
+  margin-left: 5px;
+}
+caption {
+  margin-top: 10px;
+}
+.team {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  /*flex-wrap: wrap;
+  flex-direction: row;*/ /*Saving the individual code lines just in case I need them later */
+}
+
+.team-member {
+  flex: 1 1 30px;
+  min-width: 200px;
+  text-align: center;
+  width: 30%;
+  margin: 100px;
+  border: 4px solid floralwhite;
+}
+.foot {
+  display: flex;
+  justify-content: flex-start;
+}

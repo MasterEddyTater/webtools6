@@ -1,0 +1,52 @@
+p,
+li,
+h1,
+h2,
+a:link,
+label,
+caption,
+th,
+td,
+h3,
+figcaption {
+  color: rgb(31, 161, 5);
+  font-family: "Courier New", Courier, monospace;
+}
+legend,
+h4 {
+  color: rgb(31, 161, 5);
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  text-align: center;
+}
+body {
+  background-color: rgb(17, 17, 17);
+}
+a:visited {
+  color: rgb(245, 57, 57);
+}
+::placeholder,
+input[type="file"],
+input[type="submit"],
+input[type="reset"],
+nav {
+  font-family: "Courier New", Courier, monospace;
+}
+form,
+fieldset {
+  width: 70%;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+table {
+  width: 60%;
+  padding: 0;
+  border: thin solid white;
+  padding-bottom: 50px;
+}
+tr,
+td,
+th {
+  text-align: center;
+}
